@@ -18,13 +18,13 @@ powershell -Command "Invoke-WebRequest https://cdn.akamai.steamstatic.com/client
 echo done!
 timeout 3 /nobreak
 echo starting chrome installer...
-chromesetup.exe
+echo chromesetup.exe (for testing)
 timeout 3 /nobreak
 echo starting discord installer...
-discordsetup.exe
+echo discordsetup.exe (for testing)
 timeout 3 /nobreak
 echo starting steam installer...
-steamsetup.exe
+echo steamsetup.exe (for testing)
 timeout 3 /nobreak
 echo now just do the setups and you're good to go!
 echo only proceed once done with all setups,
